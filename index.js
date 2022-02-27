@@ -256,13 +256,13 @@ document.addEventListener("keydown", function (event) {
 
     // Buat ular ke 3 bergerak
     if (event.key === "j") {
-        snake3.direction = DIRECTION.LEFT;
+        turn(snake3.direction = DIRECTION.LEFT);
     } else if (event.key === "l") {
-        snake3.direction = DIRECTION.RIGHT;
+        turn(snake3.direction = DIRECTION.RIGHT);
     } else if (event.key === "i") {
-        snake3.direction = DIRECTION.UP;
+        turn(snake3.direction = DIRECTION.UP);
     } else if (event.key === "k") {
-        snake3.direction = DIRECTION.DOWN;
+        turn(snake3.direction = DIRECTION.DOWN);
     }
 })
 
